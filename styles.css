@@ -152,6 +152,7 @@ body {
 .intro_text {
   color: var(--secondary-text-color);
   text-align: justify;
+  margin-top: 15px;
 }
 
 .skills__header {
@@ -165,8 +166,15 @@ body {
   text-align: justify;
 }
 .experiences {
-  flex: 1 1 60%;
-  margin-right: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.column {
+  margin: 0 auto;
+  
 }
 
 .experiences__header {
@@ -256,4 +264,9 @@ body {
 
 .additional-info__languages-item {
   color: var(--secondary-text-color);
+}
+
+ul {
+  color: var(--secondary-text-color);
+  margin: 5px;
 }
